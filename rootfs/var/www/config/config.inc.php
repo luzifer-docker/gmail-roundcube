@@ -24,5 +24,5 @@ $config['smtp_pass'] = '%p';
 
 $config['enigma_pgp_homedir'] = '/var/www/db/enigma';
 
-$config['plugins'] = array('enigma');
+$config['plugins'] = array('carddav', 'enigma');
 if(getenv('ROUNDCUBE_USER_FILE')) $config['plugins'][] = 'password';
